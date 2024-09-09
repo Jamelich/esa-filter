@@ -98,11 +98,6 @@ function true_filter_function()
     */
 
     query_posts($args);
-    // $args = array(
-    //     'product_category_id' => array( 17, 23 ),
-    // );
-    // $products = wc_get_products( $args );
-
     echo '<div class="woocommerce columns-4">';
     woocommerce_product_loop_start();
 
